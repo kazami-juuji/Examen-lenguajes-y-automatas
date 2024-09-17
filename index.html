@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbol de expresiones</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div></div>
+        <label for="expresion">Expresión:</label>
+        <input type="text" id="expresion">
+        <button onclick="generarArbol()">Generar Árbol</button>
+        <button onclick="limpiarArbol()">Limpiar Árbol</button>
+        <div id="advertencia"></div>
+    </div>
+
+    <div id="grafo"></div>
+    <div id="lineas"></div>
+
+    <div>
+        <button onclick="mostrarPreorden()">Mostrar Preorden</button>
+        <button onclick="mostrarInorden()">Mostrar Inorden</button>
+        <button onclick="mostrarPosorden()">Mostrar Posorden</button>
+    </div>
+
+    <div>
+        <h3>Recorrido:</h3>
+        <div id="resultadoRecorrido"></div>
+    </div>
+
+
+    <script src="./Examen.js"></script>
+</body>
+</html>
+
